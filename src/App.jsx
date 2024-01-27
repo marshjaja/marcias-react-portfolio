@@ -1,12 +1,14 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import * as bootstrap from "bootstrap"; // Import all of Bootstrap's JS
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 	return (
-		<Router>
-			<Routes></Routes>
-		</Router>
+		<>
+			<BrowserRouter>
+				<main>
+					<Routes></Routes>
+				</main>
+			</BrowserRouter>
+		</>
 	);
 }
 
