@@ -77,13 +77,12 @@ main {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
 .page-container {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh; /* Use the full height of the viewport */
+	min-height: 100vh;
 }
 
 .content-wrap {
-	flex: 1; /* Causes this div to expand to take up any available space */
+	flex: 1;
 }
