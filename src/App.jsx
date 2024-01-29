@@ -7,6 +7,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css"; // Import the CSS
 import * as bootstrap from "bootstrap";
 import "./index.css";
 import Footer from "./components/Footer/Footer";
+
 function App() {
 	return (
 		<>
