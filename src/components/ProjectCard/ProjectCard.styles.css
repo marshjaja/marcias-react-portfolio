@@ -49,9 +49,9 @@
 } */
 
 .card-background {
-	background-color: #9321e44f; /* Example background color */
-	padding: 20px; /* Adds space around the card */
-	border-radius: 10px; /* Optional: Rounds the corners of the background */
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
-	margin-bottom: 20px; /* Adds space below each card background */
+	background-color: #9321e44f;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
 }
