@@ -12,7 +12,7 @@
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	--primary: #922ade;
+	--primary: #932ade;
 }
 body {
 	margin: 0 !important;
@@ -44,6 +44,12 @@ main {
 	border-bottom: 3px solid var(--primary);
 	color: #efecec !important;
 }
+.navbar-brand-custom {
+	font-size: 26px;
+	margin-right: auto;
+	border-bottom: 3px solid black;
+	color: #efecec !important;
+}
 .nav-link {
 	text-decoration: none !important;
 	padding: 6px;
@@ -70,4 +76,14 @@ main {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.page-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* Use the full height of the viewport */
+}
+
+.content-wrap {
+	flex: 1; /* Causes this div to expand to take up any available space */
 }

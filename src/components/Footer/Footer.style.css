@@ -1,0 +1,35 @@
+.main-footer {
+	color: white;
+	background-color: #9321e44f;
+	padding-top: 3em;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+/* ==== CONTACT ME ICONS ====*/
+.icon-list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+.icon-list li a {
+	margin-right: 10px;
+}
+.icon-list li i:hover {
+	color: #0b0a0a;
+	opacity: 0.5;
+}
+
+.icon-list li:last-child a {
+	margin-right: 0;
+}
+
+/* ==== RESUME LINK ====*/
+.custom-a {
+	color: white;
+}
+.custom-a:hover {
+	color: #0b0a0a;
+	opacity: 0.5;
+}
