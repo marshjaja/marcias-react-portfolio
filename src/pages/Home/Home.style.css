@@ -1,18 +1,4 @@
-.image-container-wrapper {
-	position: relative;
-	background-color: #9321e44f;
-	border-radius: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 270px;
-}
-
-.image-container {
-	position: absolute;
-	top: 70px; /* check later, if I still want offset  container behind the profile pic when I have move elements on the page*/
-	left: 60px; /* check later,  if I still want offset  container behind the profile pic when I have move elements on the page*/
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,500;1,600&display=swap");
 
 .round-image {
 	display: block;
@@ -20,25 +6,74 @@
 	width: 50vw;
 	height: 50vw;
 	object-fit: cover;
-	max-width: 470px;
-	max-height: 470px;
+	max-width: 550px;
+	max-height: 550px;
 }
 
+.image-container-wrapper {
+	max-width: 550px;
+	max-height: 550px;
+	background-color: #9321e44f;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 7px;
+}
 @media (min-width: 768px) {
 	.round-image {
-		width: 35vw;
-		height: 35vw;
+		width: 45vw;
+		height: 45vw;
+		max-width: 400px;
+		max-height: 400px;
+	}
+	.image-container-wrapper {
+		width: 48vw;
+		height: 48vw;
+		max-width: 415px;
+		max-height: 415px;
 	}
 }
-
 @media (min-width: 1008px) and (max-width: 1040px) {
 	.round-image {
 		width: 40vw;
 		height: 40vw;
 	}
+	.image-container-wrapper {
+		width: 42vw;
+		height: 42vw;
+	}
 }
 
-.overlay-text {
+.home-text {
+	border-bottom: 3px solid var(--primary);
+}
+.tag-line-text {
+	font-size: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+@media (min-width: 991px) and (max-width: 1360px) {
+	.tag-line-text {
+		font-size: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+article h5 {
+	font-family: "Poppins", sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	/* color: #e7e6e1; */
+	/* color: #f8f8f8; */
+
+	color: #b3b1b1;
+}
+
+/* .overlay-text {
 	position: absolute;
 	bottom: 10%;
 	left: 50%;
@@ -51,17 +86,4 @@
 	.overlay-text {
 		font-size: 20px;
 	}
-}
-.home-text {
-	border-bottom: 3px solid var(--primary);
-}
-
-/* OLD IMAGE WRAPPER BELOW,  CHECK IF YOU STILL WANT OFFSET AT THE END */
-/* .image-container-wrapper {
-	background-color: #9321e44f;
-	border-radius: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 7px;
 } */
