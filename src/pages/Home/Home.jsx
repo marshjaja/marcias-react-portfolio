@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Profile1 from "../../assets/LinkedIn-c-round.png";
+import Profile1 from "../../../public/assets/profile-pic.png";
 import data from "../../../data/IconData.json";
 import "./Home.style.css";
 import Card from "../../components/Card/Card";

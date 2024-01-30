@@ -1,5 +1,5 @@
 import React from "react";
-import Image1 from "../../assets/Australia.jpeg";
+// import Image1 from "../../assets/Australia.jpeg";
 import "../../components/Card/Card.styles.css";
 
 function Card(props) {
