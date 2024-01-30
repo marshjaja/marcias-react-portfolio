@@ -5,16 +5,21 @@ import "./Contact.styles.css";
 function Contact() {
 	const form = useRef();
 	const [emailStatus, setEmailStatus] = useState("");
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [message, setMessage] = useState("");
+
+	const isFormFilledOut = name && email && message;
 
 	const sendEmail = (e) => {
 		e.preventDefault();
 
 		emailjs
 			.sendForm(
-				"service_rhu0srq",
-				"template_dz0mcl1",
+				import.meta.env.VITE_EMAILJS_SERVICE_ID,
+				import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
 				form.current,
-				"TNiTixSCHu75dtXS0"
+				import.meta.env.VITE_EMAILJS_USER_ID
 			)
 			.then(
 				(result) => {
@@ -22,6 +27,9 @@ function Contact() {
 					setEmailStatus("Message was sent successfully");
 					setTimeout(() => setEmailStatus(""), 3000);
 					e.target.reset();
+					setName("");
+					setEmail("");
+					setMessage("");
 				},
 				(error) => {
 					console.log(error.text);
@@ -39,6 +47,7 @@ function Contact() {
 							<h3 className="header-text text-center mb-4">
 								<span className="underline-text">Get in touch</span>
 							</h3>
+
 							<div className="mb-3">
 								<label htmlFor="userName" className="form-label">
 									Name
@@ -48,6 +57,7 @@ function Contact() {
 									className="form-control"
 									id="userName"
 									name="user_name"
+									onChange={(e) => setName(e.target.value)}
 								/>
 							</div>
 							<div className="mb-3">
@@ -59,6 +69,7 @@ function Contact() {
 									className="form-control"
 									id="userEmail"
 									name="user_email"
+									onChange={(e) => setEmail(e.target.value)}
 								/>
 							</div>
 							<div className="mb-3">
@@ -69,18 +80,22 @@ function Contact() {
 									className="form-control"
 									id="messageText"
 									name="message"
-									rows="3"
+									rows="5"
+									onChange={(e) => setMessage(e.target.value)}
 								></textarea>
 							</div>
 							<div className="">
 								<div className="d-grid gap-2">
-									<button
+									<input
+										type="submit"
+										value="Send"
 										className="btn btn-primary custom-button"
-										type="button"
-									>
-										Button
-									</button>
+										disabled={!isFormFilledOut}
+									/>
 								</div>
+							</div>
+							<div className="email-status-message">
+								{emailStatus && <p>{emailStatus}</p>}
 							</div>
 						</div>
 					</div>

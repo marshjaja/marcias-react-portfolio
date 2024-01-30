@@ -19,3 +19,7 @@
 	background-color: var(--secondary-dark) !important;
 	border-color: var(--secondary) !important;
 }
+.custom-button:disabled {
+	background-color: var(--secondary-dark) !important;
+	border-color: var(--secondary) !important;
+}
