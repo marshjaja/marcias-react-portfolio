@@ -1,0 +1,30 @@
+/*==== main card style ====*/
+.card-1 {
+	transition: transform 0.3s ease, background-color 0.3s ease; /* Add background-color transition */
+	border: 1px solid #fffcfc79; /* Add a subtle border for better visibility */
+	padding: 5px;
+	background-color: #fffcfcdb;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-1:hover {
+	transform: scale(1.05);
+	/* background-color: #ffffff; */
+}
+
+/*==== Otherwise this text is purple ====*/
+.card-title {
+	color: rgb(29, 28, 28) !important;
+}
+
+/*==== image styles ====*/
+.img-container {
+	position: relative;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.img-container:hover .image {
+	opacity: 0.6;
+}
