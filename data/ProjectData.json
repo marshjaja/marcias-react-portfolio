@@ -17,7 +17,7 @@
 	{
 		"url": "https://marshjaja.github.io/JavaScriptPursuit-Code-Quiz/",
 		"title": "EdX homework 6 Code Quiz",
-		"img": "./src/assets/edx-code-quiz.png"
+		"img": "/src/assets/edx-code-quiz.png"
 	},
 	{
 		"url": "https://www.loom.com/share/421e988e5cdb418f9cf580b62d9c949c",
