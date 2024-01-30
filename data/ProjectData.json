@@ -2,31 +2,31 @@
 	{
 		"url": "https://marshjaja.github.io/5-day-weather-forecast-dashboard/",
 		"title": "Weather Dashboard",
-		"img": "/src/assets/weather-dashboard.png"
+		"img": "./src/assets/weather-dashboard.png"
 	},
 	{
 		"url": "https://kraken.tech/press-releases",
 		"title": "Kraken tech Press site",
-		"img": "/src/assets/kraken-tech.png"
+		"img": "./src/assets/kraken-tech.png"
 	},
 	{
 		"url": "https://marshjaja.github.io/EdX-Group-Project-1/",
 		"title": "EdX group project 1",
-		"img": "/src/assets/edx-gp-1.png"
+		"img": "./src/assets/edx-gp-1.png"
 	},
 	{
 		"url": "https://marshjaja.github.io/JavaScriptPursuit-Code-Quiz/",
 		"title": "EdX homework 6 Code Quiz",
-		"img": "/src/assets/edx-code-quiz.png"
+		"img": "./src/assets/edx-code-quiz.png"
 	},
 	{
 		"url": "https://www.loom.com/share/421e988e5cdb418f9cf580b62d9c949c",
 		"title": "Professional README.md generator",
-		"img": "/src/assets/readme-generator-2.png"
+		"img": "./src/assets/readme-generator-2.png"
 	},
 	{
 		"url": "https://www.loom.com/share/d92b21768b4a4e78a47c32e49f021e8f",
 		"title": "jumpy Jump",
-		"img": "/src/assets/python-jumpy-jump.png"
+		"img": "./src/assets/python-jumpy-jump.png"
 	}
 ]
