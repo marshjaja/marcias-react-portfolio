@@ -10,6 +10,7 @@ import Header from "./components/Header/Header";
 /* == pages == */
 import Home from "./pages/Home/Home";
 import ProjectGallery from "./pages/ProjectGallery/ProjectGallery";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 							<Routes>
 								<Route path="/" element={<Home />} />
 								<Route path="/project-gallery" element={<ProjectGallery />} />
+								<Route path="/contact" element={<Contact />} />
 							</Routes>
 						</main>
 					</div>
