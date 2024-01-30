@@ -2,7 +2,7 @@
 	{
 		"url": "https://marshjaja.github.io/5-day-weather-forecast-dashboard/",
 		"title": "Weather Dashboard",
-		"img": "/marcias-react-portfolio/src/assets/weather-dashboard.png"
+		"img": "./marcias-react-portfolio/src/assets/weather-dashboard.png"
 	},
 	{
 		"url": "https://kraken.tech/press-releases",
