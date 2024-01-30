@@ -41,7 +41,7 @@
 	background-color: #100f117f;
 }
 .btn-custom:hover {
-	background-color: #9321e4;
+	background-color: var(--secondary-dark);
 }
 
 /* .button-icon {

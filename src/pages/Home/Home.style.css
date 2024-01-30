@@ -46,9 +46,10 @@
 }
 
 .home-text {
-	border-bottom: 3px solid var(--primary);
+	border-bottom: 3px solid #4a8179;
 }
 .tag-line-text {
+	color: #c2fcf3;
 	font-size: 28px;
 	white-space: nowrap;
 	overflow: hidden;
