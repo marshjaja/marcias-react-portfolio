@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Profile1 from "../../assets/LinkedIn-c-round.png";
+import data from "../../../data/IconData.json";
 import "./Home.style.css";
+import Card from "../../components/Card/Card";
 
-function Home() {
+function Home(props) {
 	const [tagLineText, setTagLineText] = useState("Aspiring Frontend Developer");
 	const tagLineTextOptions = [
 		"Web Developer",
@@ -67,6 +69,21 @@ function Home() {
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<h1 className="text-center pb-5 pt-5">TECHNICAL SKILLS</h1>
+			<div className="container-fluid custom-bg">
+				<div className="row">
+					{data.map((icon, index) => (
+						<div className="col-lg-2 col mb-3" key={index}>
+							<Card
+								url={icon.url}
+								width={icon.width}
+								height={icon.height}
+								title={icon.title}
+							/>
+						</div>
+					))}
 				</div>
 			</div>
 		</>

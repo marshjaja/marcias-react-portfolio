@@ -17,7 +17,7 @@ function Footer() {
 									<i className="fa fa-file-text fa-2x ms-3 "></i>
 								</a>
 							</div> */}
-							<div className="col ms-5 text-dark">
+							<div className="col ms-5 section-text">
 								<h4 className="mb-3">View my Resume</h4>
 								<div className="mb-3">
 									<Image src={Logo} alt="Logo" style={{ width: "50px" }} />
@@ -32,7 +32,7 @@ function Footer() {
 							</div>
 
 							{/* Column2 */}
-							<div className="col text-dark ms-4">
+							<div className="col section-text ms-4">
 								<h4>Connect with Me</h4>
 								<ul className="list-unstyled icon-list">
 									{/* GitHub Icon */}
@@ -71,7 +71,7 @@ function Footer() {
 								</ul>
 							</div>
 							{/* Column3 */}
-							<div className="col text-dark mx-5">
+							<div className="col section-text mx-5">
 								<h4>About Me</h4>
 								<p>
 									Aspiring software developer, passionate about learning and
@@ -84,7 +84,7 @@ function Footer() {
 							<div className="col-sm">
 								<div
 									className="text-center p-3"
-									style={{ backgroundColor: "#713998" }}
+									style={{ backgroundColor: "#452958a6" }}
 								>
 									&copy;{new Date().getFullYear()}
 									&nbsp;Marcia Mijnhijmer | All Rights Reserved.

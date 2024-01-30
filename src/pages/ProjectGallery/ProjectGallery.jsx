@@ -9,6 +9,9 @@ function ProjectGallery() {
 					<div className="col-lg-4 mb-3">
 						<ProjectCard />
 					</div>
+					<div className="col-lg-4 mb-3">
+						<ProjectCard />
+					</div>
 				</div>
 			</div>
 		</>

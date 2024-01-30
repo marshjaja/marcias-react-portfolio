@@ -1,6 +1,6 @@
 .main-footer {
 	color: white;
-	background-color: #9321e44f;
+	background-color: rgba(69, 41, 88, 0.656);
 	padding-top: 3em;
 	position: relative;
 	bottom: 0;
@@ -17,7 +17,6 @@
 	margin-right: 10px;
 }
 .icon-list li i:hover {
-	color: #0b0a0a;
 	opacity: 0.5;
 }
 
@@ -30,6 +29,9 @@
 	color: white;
 }
 .custom-a:hover {
-	color: #0b0a0a;
 	opacity: 0.5;
+}
+
+.section-text {
+	color: #070707b3;
 }
