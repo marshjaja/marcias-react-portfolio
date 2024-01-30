@@ -15,6 +15,7 @@
 
 /*==== Otherwise this text is purple ====*/
 .card-title {
+	font-family: "Quicksand";
 	color: rgb(29, 28, 28) !important;
 }
 

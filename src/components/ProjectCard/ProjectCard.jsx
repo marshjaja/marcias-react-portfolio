@@ -5,7 +5,7 @@ import "../../components/ProjectCard/ProjectCard.styles.css";
 function ProjectCards(props) {
 	return (
 		<>
-			<div className="container">
+			<div className="container mx-3">
 				<div className="row">
 					<div className="col">
 						<div className="card-background">

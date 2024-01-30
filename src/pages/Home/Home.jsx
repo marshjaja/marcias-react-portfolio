@@ -49,9 +49,11 @@ function Home(props) {
 					<div className="col-lg-6 mb-3 d-flex justify-content-center">
 						<div className=" sm-px-5 mb-4 rounded-3">
 							<div className="container-fluid sm-py-1 py-5">
-								<h1 className="display-5 fw-bold home-text">
-									Marcia Mijnhijmer
-								</h1>
+								<h3 className=" mb-4">
+									<span className="underline-text display-5 fw-semibold">
+										Marcia Mijnhijmer
+									</span>
+								</h3>
 								<p className="col-md-8 tag-line-text">{tagLineText}</p>
 								<article>
 									<h5>
