@@ -13,11 +13,13 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	--primary: #932ade;
+	--secondary: #60baae;
+	--secondary-light: #c2fcf3;
+	--secondary-dark: #4a8179;
 }
 body {
 	margin: 0 !important;
-	padding: 20px !important;
-	background: var(--secondary) !important;
+	background-color: #242424 !important;
 }
 * {
 	color: #fff;
@@ -25,7 +27,7 @@ body {
 }
 
 main {
-	max-width: 1200px;
+	max-width: none;
 	margin: 40px auto;
 }
 
@@ -85,4 +87,13 @@ main {
 
 .content-wrap {
 	flex: 1;
+}
+.custom-bg {
+	background-color: #92dec4d2;
+	background-color: #0033cc54;
+	background-color: var(--secondary-dark);
+	background-color: #60baaeca;
+	/* background-color:#CEA1C6; */
+	width: 100%;
+	padding: 20px;
 }
