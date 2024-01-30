@@ -2,17 +2,17 @@
 	{
 		"url": "https://marshjaja.github.io/5-day-weather-forecast-dashboard/",
 		"title": "Weather Dashboard",
-		"img": "./src/assets/weather-dashboard.png"
+		"img": "/marcias-react-portfolio/src/assets/weather-dashboard.png"
 	},
 	{
 		"url": "https://kraken.tech/press-releases",
 		"title": "Kraken tech Press site",
-		"img": "./src/assets/kraken-tech.png"
+		"img": "./assets/kraken-tech.png"
 	},
 	{
 		"url": "https://marshjaja.github.io/EdX-Group-Project-1/",
 		"title": "EdX group project 1",
-		"img": "./src/assets/edx-gp-1.png"
+		"img": "./assets/edx-gp-1.png"
 	},
 	{
 		"url": "https://marshjaja.github.io/JavaScriptPursuit-Code-Quiz/",
