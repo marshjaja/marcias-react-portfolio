@@ -18,7 +18,7 @@ function Footer() {
 								</a>
 							</div> */}
 							<div className="col ms-5 section-text">
-								<h4 className="mb-3">View my Resume</h4>
+								{/* <h4 className="mb-3">View my Resume</h4> */}
 								<div className="mb-3">
 									<Image src={Logo} alt="Logo" style={{ width: "50px" }} />
 								</div>
@@ -27,7 +27,7 @@ function Footer() {
 									download
 									className=" custom-a mt-3"
 								>
-									Resume
+									View Resume
 								</a>
 							</div>
 

@@ -68,6 +68,13 @@ function Home(props) {
 										Eager and equipped for my inaugural role in the tech world.
 									</h5>
 								</article>
+								<a
+									href="https://drive.google.com/file/d/1HJxDPEBIZnM4kDd5gfbHEM5YCyfHx-lx/view"
+									download
+									className="btn-resume mt-3"
+								>
+									View my Resume
+								</a>
 							</div>
 						</div>
 					</div>
