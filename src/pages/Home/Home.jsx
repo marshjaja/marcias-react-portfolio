@@ -4,7 +4,7 @@ import data from "../../../data/IconData.json";
 import "./Home.style.css";
 import Card from "../../components/Card/Card";
 
-function Home(props) {
+function Home() {
 	const [tagLineText, setTagLineText] = useState("Aspiring Frontend Developer");
 	const tagLineTextOptions = [
 		"Web Developer",
