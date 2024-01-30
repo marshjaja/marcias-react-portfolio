@@ -17,7 +17,7 @@ function ProjectCards(props) {
 											<a
 												href={props.url}
 												className="btn btn-outline-secondary btn-custom btn-sm"
-												target="_blank" // This opens the link in a new tab
+												target="_blank"
 												rel="noopener noreferrer"
 											>
 												<i className="fas fa-arrow-up-right-from-square">

@@ -1,6 +1,7 @@
 /*==== main card style ====*/
 .card {
 	transition: transform 0.3s ease;
+	height: auto;
 }
 
 .card:hover {
@@ -55,23 +56,19 @@
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	margin-bottom: 20px;
 }
+
 /*==== image styles ====*/
 .fixed-size-image {
-	object-fit: contain; /* This property ensures the image covers the specified dimensions */
+	object-fit: contain; 
 }
 
 .fixed-size-image {
-	width: 100%; /* make image width stretch to the container width */
-	height: auto; /* maintain the aspect ratio of the image */
-	object-fit: cover; /* this will cover the area of the container without stretching the image */
+	width: 100%; 
+	height: auto; 
+	object-fit: cover; 
 }
 
-.card {
-	/* If you want the card to adjust based on the content including the image */
-	height: auto;
-}
-
-/* If you're using h-100 to make the card full height of its container, and you want to maintain that */
 .h-100 {
 	height: 100%;
 }
+
