@@ -16,6 +16,8 @@ function ProjectGallery() {
 								url={project.url}
 								title={project.title}
 								img={project.img}
+								description={project.description}
+								github={project.github}
 							/>
 						</div>
 					))}

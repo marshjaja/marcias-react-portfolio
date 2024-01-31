@@ -23,13 +23,13 @@ function ProjectCards(props) {
 													&nbsp;View project
 												</i>
 											</a>
+											<a className="custom-a" href={props.github}>
+												<i className="fab fa-github fa-2x  text-dark"></i>
+											</a>
 										</div>
 										<div className="card-body">
 											<h5 className="card-title text-center">{props.title}</h5>
-											<p className="card-text text-center">
-												Some quick example text to build on the card title and
-												make up the bulk of the card's content.
-											</p>
+											<p className="card-text">{props.description}</p>
 										</div>
 									</div>
 								</div>

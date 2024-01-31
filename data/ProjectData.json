@@ -2,31 +2,42 @@
 	{
 		"url": "https://marshjaja.github.io/5-day-weather-forecast-dashboard/",
 		"title": "Weather Dashboard",
-		"img": "./assets/weather-dashboard.png"
+		"img": "./assets/weather-dashboard.png",
+		"github": "https://github.com/marshjaja/5-day-weather-forecast-dashboard",
+		"description": "Weather dashboard using the OpenWeather API, provides a 5-day forecast. This project was part of my coursework for Week 8 of an edX course"
 	},
 	{
 		"url": "https://kraken.tech/press-releases",
 		"title": "Kraken tech Press site",
-		"img": "./assets/kraken-tech.png"
+		"img": "./assets/kraken-tech.png",
+		"github": "https://github.com/octoenergy",
+		"description": "As part of my 8-week internship with Octopus Energy, I had the opportunity to be develop the initial Kraken Tech Press website."
 	},
 	{
 		"url": "https://marshjaja.github.io/EdX-Group-Project-1/",
-		"title": "EdX group project 1",
-		"img": "./assets/edx-gp-1.png"
+		"title": "EdX Group Project 1",
+		"img": "./assets/edx-gp-1.png",
+		"github": "https://github.com/marshjaja/EdX-Group-Project-1",
+		"description": "Book recommendation app, utilizes APIs from Google Books, Mapbox, and the New York Times. Search functionality, book recommendations, and a bookstore search feature."
 	},
 	{
 		"url": "https://marshjaja.github.io/JavaScriptPursuit-Code-Quiz/",
-		"title": "EdX homework 6 Code Quiz",
-		"img": "./assets/edx-code-quiz.png"
+		"title": "Javascript Code Quiz",
+		"img": "./assets/edx-code-quiz.png",
+		"github": "https://github.com/marshjaja/JavaScriptPursuit-Code-Quiz",
+		"description": "JavaScript timed code quiz for EdX Front-End Web Development Homework Module 6, built with HTML, CSS, and JavaScript."
 	},
 	{
 		"url": "https://www.loom.com/share/421e988e5cdb418f9cf580b62d9c949c",
-		"title": "Professional README.md generator",
-		"img": "./assets/readme-generator-2.png"
+		"title": "README.md generator",
+		"img": "./assets/readme-generator-2.png",
+		"github": "https://github.com/marshjaja/MarkDownYoda",
+		"description": "README generator using Node.js to automate the README creation process. Edx homework module 11"
 	},
 	{
 		"url": "https://www.loom.com/share/d92b21768b4a4e78a47c32e49f021e8f",
-		"title": "jumpy Jump",
-		"img": "./assets/python-jumpy-jump.png"
+		"title": "Jumpy Jump",
+		"img": "./assets/python-jumpy-jump.png",
+		"description": "Created 'Jumpy Jumpy,' a game using Python and Pygame."
 	}
 ]

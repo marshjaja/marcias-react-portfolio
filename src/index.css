@@ -66,6 +66,7 @@ main {
 	border: 1px solid rgba(69, 41, 88, 0.656);
 	text-decoration: none;
 	color: var(--primary) !important;
+	margin-left: 10px;
 }
 .navbar-toggler:focus {
 	border: 3px solid var(--primary);
@@ -106,4 +107,7 @@ main {
 .underline-text {
 	border-bottom: 3px solid var(--secondary-dark) !important;
 	padding-bottom: 5px !important;
+}
+header h1 {
+	margin-left: 20px;
 }
