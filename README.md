@@ -27,7 +27,9 @@
     <a href="https://github.com/marshjaja/marcias-react-portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://www.loom.com/share/421e988e5cdb418f9cf580b62d9c949c">View Demo</a>
+    <a href="https://marshjaja.github.io/marcias-react-portfolio">View Deploy Link</a>
+    ·
+    <a href="https://www.loom.com/share/9d59a0c9c6e842718715b59e30209503">View Demo</a>
     ·
     <a href="https://github.com/marshjaja/marcias-react-portfolio/issues">Report Bug</a>
     ·
@@ -36,6 +38,8 @@
 </div>
 
 ---
+
+
 
 
 
@@ -85,8 +89,7 @@ These high-quality READMEs should include essential information such as the proj
 ---
 
 # 🗣️USER STORY
-- As a developer, I want a README generator so that I can quickly create a professional README for a new project
-<br>
+In my role as a developer, I desire a polished and engaging portfolio website that will help me highlight my skills and display my work effectively.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +137,14 @@ Your portfolio must include, at a minimum, the following 6 components:
 6. **Contact**: A component for visitors to contact you, typically containing a form or contact information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+# 🚧👷‍♀️PROJECT IMPROVEMENTS:
+- ***To enhance*** the project, I aim to make various improvements. <br>
+- ***Firstly***, I plan to refine the styling to achieve a more polished and visually appealing look, integrating Bootstrap for a professional touch. <br>
+- ***Additionally***, I'll work on improving error handling to ensure a smoother user experience, with informative error messages. <br>
+- ***Lastly***, I'll prioritize cleaning up the codebase, adhering to best practices and writing cleaner, more maintainable code."
 
 ---
 
