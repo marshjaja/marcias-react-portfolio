@@ -11,6 +11,7 @@ import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
 import ProjectGallery from "./pages/ProjectGallery/ProjectGallery";
 import Contact from "./pages/Contact/Contact";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 								<Route path="/" element={<Home />} />
 								<Route path="/project-gallery" element={<ProjectGallery />} />
 								<Route path="/contact" element={<Contact />} />
+								<Route path="*" element={<NotFound />} />
 							</Routes>
 						</main>
 					</div>

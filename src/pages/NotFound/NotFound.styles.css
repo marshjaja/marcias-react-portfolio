@@ -1,0 +1,31 @@
+.not-found-text {
+	font-size: 55px;
+	font-weight: 300;
+	color: rgb(152, 148, 148);
+	box-shadow: 1px 1px 0 var(--secondary),
+		/* Small shadow for sharp edge */ 8px 8px 8px rgba(0, 0, 0, 0.2),
+		/* Medium shadow for depth */ 8px 8px 20px rgba(0, 0, 0, 0.3),
+		/* Larger shadow for diffuse effect */ 0 0 20px 5px rgba(0, 0, 0, 0.1); /* Outermost soft shadow for ambient light */
+}
+@media (max-width: 767px) {
+	.not-found-text {
+		font-size: 40px;
+	}
+}
+.custom-link {
+	color: var(--secondary);
+}
+.custom-link:hover {
+	opacity: 0.5;
+}
+.custom-link:active {
+	color: var(--primary);
+}
+.view-height {
+	height: 80vh;
+}
+@media (max-width: 767px) {
+	.view-height {
+		height: 60vh;
+	}
+}
