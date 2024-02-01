@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
+
 import "./Contact.styles.css";
 
 function Contact() {
@@ -24,7 +26,16 @@ function Contact() {
 			.then(
 				(result) => {
 					console.log(result.text);
-					setEmailStatus("Message was sent successfully");
+
+					Swal.fire({
+						icon: "success",
+						title: "Success!",
+						text: "Your message has been sent successfully.",
+						timer: 3000,
+						showConfirmButton: false,
+					});
+
+					setEmailStatus("Your message was sent successfully");
 					setTimeout(() => setEmailStatus(""), 3000);
 					e.target.reset();
 					setName("");
@@ -33,6 +44,14 @@ function Contact() {
 				},
 				(error) => {
 					console.log(error.text);
+
+					Swal.fire({
+						icon: "error",
+						title: "Oops...",
+						text: "There was a problem sending your message.",
+						timer: 3000,
+						showConfirmButton: false,
+					});
 					setEmailStatus("There was a problem when sending the message");
 					setTimeout(() => setEmailStatus(""), 3000);
 				}
