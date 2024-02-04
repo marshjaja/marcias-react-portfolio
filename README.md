@@ -4,7 +4,7 @@
 
 
 
-<a name="readme-top"></a>
+<a name="top"></a>
 
 <div align="center">
 
@@ -57,7 +57,7 @@
 
 ## Table of Contents
 
-- [The best project ever!](#the-best-project-ever)
+- 
   - [Description](#description)
   - [Technologies Used](#technologies-used)
   - [Table of Contents](#table-of-contents)
@@ -70,32 +70,18 @@
   - [Contact](#contact)
   - [License](#license)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-# 🖇️PROJECT DEMO
-https://www.loom.com/share/421e988e5cdb418f9cf580b62d9c949c
-
-
----
-
-# 📖DESCRIPTION
-
-As per the homework requirements, the goal was to develop an automated tool to streamline the README creation process. <br>
-The objective was to craft README files that adhere to the standards outlined in the 'Good README Guide.' <br>
-These high-quality READMEs should include essential information such as the project's description, usage instructions, installation procedures, contact info, and instructions for contributions etc.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
 # 🗣️USER STORY
 In my role as a developer, I desire a polished and engaging portfolio website that will help me highlight my skills and display my work effectively.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
-# ✅ACCEPTANCE CRITERIA
+# 📖DESCRIPTION
 
 Create a my portfolio website to explore the showcase of my selected projects, delve into my professional background, and discover my diverse skill set:
 
@@ -104,6 +90,12 @@ Create a my portfolio website to explore the showcase of my selected projects, d
 ## Technologies to be Used:
 - **React:** Must be the core framework.
 - **Navigation:** Utilize React Router, dynamic rendering, or another third-party router for navigation.
+
+---
+
+
+# ✅ACCEPTANCE CRITERIA
+
 
 ## Portfolio Content:
 
@@ -136,7 +128,7 @@ Your portfolio must include, at a minimum, the following 6 components:
 5. **Project**: Individual project components that detail each project within the gallery.
 6. **Contact**: A component for visitors to contact you, typically containing a form or contact information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
@@ -169,7 +161,7 @@ Your portfolio must include, at a minimum, the following 6 components:
    node index.js
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
@@ -180,7 +172,7 @@ Here, you can also access my CV for a comprehensive look at my experience, and r
 |  Below, discover snapshots from my portfolio website, showcasing projects, skills, and more.|  Below, discover snapshots from my portfolio website, showcasing projects, skills, and more.|Below, discover snapshots from my portfolio website, showcasing projects, skills, and more.|
 |----------|----------|----------|
 | <img width="600" alt="Screenshot 2024-01-23 at 14 03 55" src="https://github.com/marshjaja/marcias-react-portfolio/assets/114920895/d0eb0bee-ed74-4107-b480-e7f9d78f8cbd"> |<img width="750" alt="Screenshot 2024-01-23 at 14 03 55" src="https://github.com/marshjaja/marcias-react-portfolio/assets/114920895/a1fe8166-e6fe-4722-b232-6934582d482b">|<img width="750" alt="Screenshot 2024-01-23 at 14 03 55" src="https://github.com/marshjaja/MarkDownYoda/assets/114920895/36615cca-959d-4b8b-9e61-ab0be4d3a09a">
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
@@ -196,7 +188,7 @@ Here, you can also access my CV for a comprehensive look at my experience, and r
 
 <br/>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>Other Tools and Libraries: <br/>
+<p align="right">(<a href="#top">back to top</a>)</p>Other Tools and Libraries: <br/>
 
 ---
 
@@ -217,7 +209,7 @@ To contribute, follow these steps:
 
 [marshjaja](https://github.com/marshjaja)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
@@ -239,7 +231,7 @@ For more information or inquiries about the project, feel free to contact me:
 On GitHub: [GitHub: marshjaja](https://github.com/marshjaja)
 Via Email: test@testing.com
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 --- 
 
@@ -249,7 +241,7 @@ Copyright © 2024 Marcia Mijnhijmer ([@marshjaja](https://github.com/marshjaja))
 
 ---
 
-<p align="center">(<a href="#readme-top">back to top</a>)</p>
+<p align="center">(<a href="#top">back to top</a>)</p>
 
 ---
 
