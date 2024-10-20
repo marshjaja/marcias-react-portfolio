@@ -23,7 +23,7 @@ function Footer() {
 									<Image src={Logo} alt="Logo" style={{ width: "50px" }} />
 								</div>
 								<a
-									href="https://drive.google.com/file/d/1HJxDPEBIZnM4kDd5gfbHEM5YCyfHx-lx/view"
+									href="https://docs.google.com/document/d/1ylyQ3LHYvWGoPHuBzgf1Vb3NzorMKr7z/view"
 									download
 									className=" custom-a mt-3"
 								>
